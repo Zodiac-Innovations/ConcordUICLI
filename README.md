@@ -1,4 +1,4 @@
-# ConcordUI CLI
+# ConcordUICLI
 
 <https://github.com/Zodiac-Innovations/ConcordUICLI>
 
