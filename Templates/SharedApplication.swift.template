@@ -1,0 +1,28 @@
+//
+//  {{APPLICATION_TYPE}}.swift
+//  {{PROJECT_NAME}}
+//
+
+import ConcordUI
+
+nonisolated public final class {{APPLICATION_TYPE}}: ConcordApplication {
+
+    public override func startApplication() {
+        mainVenue.size(640, 240)
+        elementFontSize = 34
+
+        let firstPresentation = ConcordPresentation {
+            ConcordVStack([
+                ConcordSpacer(),
+                ConcordText(self.platform.appName)
+                    .centerJustified()
+                    .fillWidth(),
+                ConcordSpacer(),
+            ])
+            .fillSize()
+        }
+
+        displayMainPresentation(firstPresentation)
+    }
+}
+
