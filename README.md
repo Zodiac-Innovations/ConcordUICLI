@@ -2,8 +2,7 @@
 
 <https://github.com/Zodiac-Innovations/ConcordUICLI>
 
-The executable in this repository is published from the corresponding Development repository.
-
+Versioned release source and distribution repository for the ConcordUI command-line tool.
 
 ## Editable shared starter template
 
